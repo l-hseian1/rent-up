@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, "sans-serif";
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    height: 70px;
+    align-items: center;
+}
+nav div{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+nav div img{
+    width: 100px;
+    margin-right: 160px;
+}
+nav div ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+nav button{
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hero{
+    background-image: url(./../images/hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:465px;
+    margin-bottom: 50px; 
+}
+.hero .background{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+gap: 20px;
+}
+.hero .background h1{
+    
+    font-size: 50px;
+}
+
+#property , #explore{
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+#property h1 , #recent h1 , #explore h1{
+    color:  #222;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#types{
+    display: flex;
+    padding: 0 70px;
+    gap: 50px;
+}
+#types div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid gray 1px;
+    border-radius: 5px;
+    border-color: rgb(112 121 138 / 18%);
+    width: 1900px;
+    height: 200px;
+    margin-bottom: 50px;
+    gap: 10px;
+    
+    
+}
+#types div img{
+    display: flex;
+    height: 70px; 
+}
+#recent ,#explore{
+    padding: 0 70px;
+    margin-bottom: 50px;
+}
+#card{
+    display: flex;
+    padding: 0 70px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+#card div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#card div img{
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#card div ul{
+    display: flex;
+    list-style: none;
+    gap: 3px;
+}
+#card div ul li{
+    color: gray;
+}
+#btn{
+    display: flex;
+    padding: 0 70px;
+    gap: 50px;
+}
+#btn div{
+    display: flex;
+    gap:230px;
+    margin-bottom: 50px;
+}
+#btn div button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(37, 181, 121, 0.1);
+    color: #27ae60
+}
+#cards , #cards_2{
+    display: flex;
+    padding: 0 70px;
+    gap: 30px;
+    width: 90vw;
+    margin-bottom: 70px;
+}
+#cards div , #cards_2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#cards div img , #cards_2 div img{
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+}
+#cards div ul , #cards_2 div ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    color: gray;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #1d2636;
+    height: 40px;
+    padding-top: 10px;
+}
+
+
